@@ -10,7 +10,8 @@ import org.jblas.DoubleMatrix;
 import org.junit.Test;
 
 public class VectorTranslationTest {
-		
+		// This test tranaslates from vectors in Spanish to English, both extracted from the EU parliament corpus
+		// The dictionary is produced by applying machine translation on the most frequent Spanish terms in the corpus and generating the English equivalent
 		static final String sourceVector = "europarl-v7.es-en.es.vector";
 		static final String targetVector = "europarl-v7.es-en.en.vector";
 		static final String dictionaryFile = "europarl-v7.es-en-lemmas.dic";
