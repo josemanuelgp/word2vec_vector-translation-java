@@ -1,3 +1,5 @@
+// Author: Jose Manuel Gomez-Perez, Expert System
+
 package org.deeplearning4j.examples.word2vec;
 
 import java.io.BufferedReader;
